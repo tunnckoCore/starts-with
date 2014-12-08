@@ -1,7 +1,7 @@
 # starts-with [![NPM version][npmjs-shields]][npmjs-url] [![Build Status][travis-img]][travis-url] [![Dependency Status][depstat-img]][depstat-url] [![Coveralls][coveralls-shields]][coveralls-url]
 
-> Returns `true` if the given string or array starts with prefix using strict equality for comparisons.
-> Using **fastest** implementation http://jsperf.com/startswith2/16, ofc without array check.
+> Returns `true` if the given string or array starts with prefix using strict equality for comparisons.  
+> Using **fastest** implementation http://jsperf.com/startswith2/16, ofc without array check.  
 > Based on [@jonschlinkert's ends-with](https://github.com/jonschlinkert/ends-with)
 
 
