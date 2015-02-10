@@ -10,7 +10,7 @@
     "coveralls": "npm run test-travis && cat coverage/lcov.info | node_modules/.bin/coveralls"
   },
   "author": {
-    "name": "Charlike Make Reagent",
+    "name": "Charlike Mike Reagent",
     "email": "mameto_100@mail.bg",
     "url": "https://github.com/tunnckoCore"
   },
@@ -36,14 +36,9 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "benchmarked": "^0.1.3",
     "should": "^4.3.0",
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.5",
-    "jscs": ">=1.8.0",
-    "jscs-jsdoc": ">=0.2.0",
-    "jshint": "^2.5.10",
-    "mocha": "^2.0.1",
-    "mocha-lcov-reporter": "0.0.1"
+    "mocha": "^2.1.0"
   },
   "engines": {
     "node": ">= 0.10.33",
