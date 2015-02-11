@@ -1,6 +1,6 @@
 {
   "name": "starts-with",
-  "description": "Returns `true` if the given string or array starts with prefix using strict equality for comparisons.",
+  "description": "Returns `true` if the given string or array starts with prefix using strict equality for comparisons. Using fastest implementation from http://jsperf.com/starts-with-comparing-12-implementations",
   "version": "0.1.0",
   "scripts": {
     "lint": "npm install && node_modules/.bin/jshint . && node_modules/.bin/jscs . --reporter inline",
