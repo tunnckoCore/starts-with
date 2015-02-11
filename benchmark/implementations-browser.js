@@ -29,7 +29,7 @@ function startsWithReSearch(a, b) {
   a = String(a);
   b = String(b);
   var re = new RegExp('^' + b);
-  return !!re.search(a);
+  return a.search(re) !== -1;
 }
 
 function startsWithSlice(a, b) {
