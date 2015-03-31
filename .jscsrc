@@ -5,7 +5,7 @@
   "safeContextKeyword": ["self", "_this", "that"],
 
   "maximumLineLength": {
-    "value": 100,
+    "value": 80,
     "allowUrlComments": true,
     "allowComments": true,
     "allowRegex": true
@@ -66,13 +66,13 @@
   "disallowKeywordsOnNewLine": ["else"],
   "disallowSpacesInCallExpression": true,
 
-  "requireSpacesInNamedFunctionExpression": {
+  "requireSpacesInFunctionExpression": {
     "beforeOpeningCurlyBrace": true
   },
-  "requireSpacesInAnonymousFunctionExpression": {
-    "beforeOpeningCurlyBrace": true
+  "disallowSpacesInFunctionExpression": {
+    "beforeOpeningRoundBrace": true
   },
-  "disallowSpacesInAnonymousFunctionExpression": {
+  "disallowSpacesInFunctionDeclaration": {
     "beforeOpeningRoundBrace": true
   },
 

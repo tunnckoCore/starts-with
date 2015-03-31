@@ -1,4 +1,4 @@
-Copyright (c) 2014 [Charlike Make Reagent][author-website], [contributors](https://github.com/tunnckoCore/starts-with/graphs/contributors).  
+Copyright (c) 2014-2015 [Charlike Make Reagent](http://j.mp/1stW47C), contributors
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
@@ -20,28 +20,3 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
-
-
-[npmjs-url]: http://npm.im/starts-with
-[npmjs-shields]: http://img.shields.io/npm/v/starts-with.svg
-[npmjs-install]: https://nodei.co/npm/starts-with.svg?mini=true
-
-[coveralls-url]: https://coveralls.io/r/tunnckoCore/starts-with?branch=master
-[coveralls-shields]: https://img.shields.io/coveralls/tunnckoCore/starts-with.svg
-
-[license-url]: https://github.com/tunnckoCore/starts-with/blob/master/license.md
-[license-img]: http://img.shields.io/badge/license-MIT-blue.svg
-
-[travis-url]: https://travis-ci.org/tunnckoCore/starts-with
-[travis-img]: https://travis-ci.org/tunnckoCore/starts-with.svg?branch=master
-
-[depstat-url]: https://david-dm.org/tunnckoCore/starts-with
-[depstat-img]: https://david-dm.org/tunnckoCore/starts-with.svg
-
-[author-gittip-img]: http://img.shields.io/gittip/tunnckoCore.svg
-[author-gittip]: https://www.gittip.com/tunnckoCore
-[author-github]: https://github.com/tunnckoCore
-[author-twitter]: https://twitter.com/tunnckoCore
-
-[author-website]: http://www.whistle-bg.tk
-[author-npmjs]: https://npmjs.org/~tunnckocore

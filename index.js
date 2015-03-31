@@ -1,7 +1,7 @@
 /**
  * starts-with <https://github.com/tunnckoCore/starts-with>
  *
- * Copyright (c) 2014 Charlike Mike Reagent, contributors.
+ * Copyright (c) 2014-2015 Charlike Mike Reagent, contributors.
  * Released under the MIT license.
  */
 
@@ -10,9 +10,11 @@
 /**
  * String or array starts with the given prefix
  *
+ * @name  startsWith
  * @param {String|Array} `str`
  * @param {String} `needle`
  * @return {Boolean}
+ * @api public
  */
 module.exports = function startsWith(str, needle) {
   if (Array.isArray(str)) {
@@ -25,7 +27,7 @@ module.exports = function startsWith(str, needle) {
   }
 
   while (i--) {
-    if (str[i] !== needle[i]) {
+    if (str.charAt(i) !== needle.charAt(i)) {
       return false;
     }
   }
