@@ -14,10 +14,28 @@ npm test
 
 ```js
 var startsWith = require('starts-with');
+
+startsWith('abcdefghi', 'abcd');
+//=> true
+
+startsWith(['abc', 'def', 'ghi'], 'abc');
+//=> true
+
+startsWith(['abc', 'def', 'ghi'], ['abc']);
+//=> false
+
+startsWith(['cab', 'cdf', 'cef'], 'c');
+//=> false
+
+startsWith([57, 'a', 'b'], 57)
+//=> true
+
+startsWith([57, 'a', 'b', 'c'], '57')
+//=> false
+
+startsWith(['57', 'a', 'b', 'c'], '57')
+//=> true
 ```
-
-
-## API / CLI
 
 
 ## Author
@@ -30,7 +48,7 @@ var startsWith = require('starts-with');
 
 
 ## License [![MIT license][license-img]][license-url]
-Copyright (c) 2015 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].  
+Copyright (c) 2014-2015 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].  
 Released under the [`MIT`][license-url] license.
 
 
@@ -47,7 +65,7 @@ Released under the [`MIT`][license-url] license.
 [travis-img]: https://img.shields.io/travis/tunnckoCore/starts-with.svg?style=flat
 
 [daviddm-url]: https://david-dm.org/tunnckoCore/starts-with
-[daviddm-img]: https://img.shields.io/david/tunnckoCore/starts-with.svg?style=flat
+[daviddm-img]: https://img.shields.io/david/dev/tunnckoCore/starts-with.svg?style=flat
 
 [author-gratipay]: https://gratipay.com/tunnckoCore
 [author-twitter]: https://twitter.com/tunnckoCore
