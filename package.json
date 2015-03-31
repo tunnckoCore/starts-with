@@ -1,6 +1,6 @@
 {
   "name": "starts-with",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Returns `true` if the given string or array starts with prefix using strict equality for comparisons. Using fastest implementation from http://jsperf.com/starts-with-comparing-12-implementations",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
