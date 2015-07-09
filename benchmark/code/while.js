@@ -1,12 +1,14 @@
+/* jshint asi:true */
+
 'use strict'
 
-module.exports = function startsWithWhile (a, b) {
-  a = String(a)
-  b = String(b)
+module.exports = function startsWithWhile (foo, bar) {
+  foo = String(foo)
+  bar = String(bar)
 
-  var i = b.length
+  var i = bar.length
   while (i--) {
-    if (a[i] !== b[i]) {
+    if (foo[i] !== bar[i]) {
       return false
     }
   }

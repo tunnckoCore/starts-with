@@ -1,3 +1,7 @@
+/* jshint asi:true, unused:false */
+
+'use strict'
+
 function startsWithIndexOf (a, b) {
   a = String(a)
   b = String(b)
@@ -18,11 +22,10 @@ function startsWithReExec (a, b) {
   return !!re.exec(a)
 }
 
-function startsWithReTest (a, b) {
+function startsWithReTest (a, baz) {
   a = String(a)
-  b = String(b)
-  var re = new RegExp('^' + b)
-  return !!re.test(a)
+  baz = String(baz)
+  return new RegExp('^' + baz)
 }
 
 function startsWithReSearch (a, b) {

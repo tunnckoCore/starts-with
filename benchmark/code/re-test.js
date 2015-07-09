@@ -1,3 +1,5 @@
+/* jshint asi:true */
+
 'use strict'
 
 module.exports = function startsWithReTest (a, b) {
