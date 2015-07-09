@@ -1,42 +1,19 @@
 {
   "name": "starts-with",
-  "version": "1.0.0",
-  "description": "Returns `true` if the given string or array starts with prefix using strict equality for comparisons. Using fastest implementation from http://jsperf.com/starts-with-comparing-12-implementations",
-  "scripts": {
-    "lint": "jshint index.js && jscs index.js --reporter inline",
-    "test": "lab -cv test.js",
-    "test-travis": "lab -cv test.js && lab -r lcov -o ./coverage/lcov.info test.js"
-  },
-  "author": {
-    "name": "Charlike Mike Reagent",
-    "email": "mameto_100@mail.bg",
-    "url": "https://github.com/tunnckoCore"
-  },
-  "files": ["index.js"],
+  "version": "0.0.0",
+  "description": "Returns `true` if the given string or array starts with prefix using strict equality for comparisons. Using fastest implementation.",
+  "repository": "tunnckoCore/starts-with",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/tunnckoCore/starts-with.git"
-  },
-  "keywords": [
-    "array",
-    "begin",
-    "first",
-    "start",
-    "starts",
-    "javascript",
-    "js",
-    "string",
-    "prefix",
-    "util",
-    "utility",
-    "utils",
-    "with"
-  ],
   "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {},
   "devDependencies": {
-    "benchmarked": "~0.1.4",
-    "lodash.startswith": "~3.0.1",
-    "lab": "~5.5.1"
-  }
+    "assertit": "^0.1.0",
+    "benchmarked": "^0.1.4",
+    "lodash.startswith": "^3.0.1"
+  },
+  "keywords": []
 }

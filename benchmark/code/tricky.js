@@ -1,10 +1,10 @@
-'use strict';
+'use strict'
 
-module.exports = function startsWithTricky(a, b) {
-  a = String(a);
-  b = String(b);
+module.exports = function startsWithTricky (a, b) {
+  a = String(a)
+  b = String(b)
   if (a.charAt(0) !== b.charAt(0)) {
-    return false;
+    return false
   }
-  return true;
-};
+  return true
+}

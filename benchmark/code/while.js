@@ -1,15 +1,15 @@
 'use strict'
 
-module.exports = function startsWithWhile(a, b) {
-  a = String(a);
-  b = String(b);
+module.exports = function startsWithWhile (a, b) {
+  a = String(a)
+  b = String(b)
 
-  var i = b.length;
+  var i = b.length
   while (i--) {
     if (a[i] !== b[i]) {
-      return false;
+      return false
     }
   }
 
-  return true;
-};
+  return true
+}

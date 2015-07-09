@@ -1,1 +1,1 @@
-module.exports = require('lodash.startswith');
+module.exports = require('lodash.startswith')
