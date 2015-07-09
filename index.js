@@ -22,7 +22,8 @@ module.exports = function startsWith (str, needle) {
     return str[0] === needle
   }
 
-  var len = needle.length, i = -1
+  var len = needle.length
+  var i = -1
   while (++i < len) {
     if (str.charAt(i) !== needle.charAt(i)) {
       return false
