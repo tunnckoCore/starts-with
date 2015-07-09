@@ -1,6 +1,6 @@
 {
   "name": "starts-with",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns `true` if the given string or array starts with prefix using strict equality for comparisons. Using fastest implementation.",
   "repository": "tunnckoCore/starts-with",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
