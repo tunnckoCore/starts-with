@@ -12,12 +12,16 @@
     "email": "mameto_100@mail.bg",
     "url": "https://github.com/tunnckoCore"
   },
+  "files": ["index.js"],
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/tunnckoCore/starts-with.git"
   },
   "keywords": [
     "array",
+    "begin",
+    "first",
     "start",
     "starts",
     "javascript",
@@ -29,11 +33,7 @@
     "utils",
     "with"
   ],
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/tunnckoCore/starts-with/blob/master/license.md"
-  },
-  "dependencies": {},
+  "license": "MIT",
   "devDependencies": {
     "benchmarked": "~0.1.4",
     "lodash.startswith": "~3.0.1",
