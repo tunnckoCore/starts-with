@@ -32,5 +32,10 @@
   ],
   "files": [
     "index.js"
-  ]
+  ],
+  "standard": {
+    "ignore": [
+      "benchmark/**/*.js"
+    ]
+  }
 }
