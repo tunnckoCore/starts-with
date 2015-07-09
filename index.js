@@ -21,16 +21,11 @@ module.exports = function startsWith(str, needle) {
     return str[0] === needle;
   }
 
-  var i = needle.length;
-  if (str.length < i) {
-    return false;
-  }
-
-  while (i--) {
+  var len = needle.length, i = -1;
+  while (++i < len) {
     if (str.charAt(i) !== needle.charAt(i)) {
       return false;
     }
   }
-
   return true;
 };
