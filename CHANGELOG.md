@@ -1,5 +1,9 @@
 
 
+## 1.0.2 - 2015-07-09
+- Release v1.0.2 / npm@v1.0.2
+- fixes for codeclimate's jshint on `benchmark/**/*`
+
 ## 1.0.1 - 2015-07-09
 - Release v1.0.1 / npm@v1.0.1
 - fix `multiple var declarations`
